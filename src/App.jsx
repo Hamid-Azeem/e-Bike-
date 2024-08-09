@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import CartIcon from './components/CartIcon';
 import Cart from './components/Cart';
 import Team from './components/Team';
+import Assesories from './components/Assesories';
 import ContactForm from './components/Contact';
 import { CartProvider } from './components/CartContext'; 
 
@@ -25,6 +26,7 @@ function App() {
         <Products />
         {isCartVisible && <Cart />}
         <Team />
+        <Assesories />
         <ContactForm />
         <Footer />
         <CartIcon toggleCartVisibility={toggleCartVisibility} />
